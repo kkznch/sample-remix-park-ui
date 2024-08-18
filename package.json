@@ -4,6 +4,7 @@
   "private": true,
   "packageManager": "npm@10.8.1",
   "scripts": {
+    "dev": "turbo run dev",
     "format": "turbo run format"
   },
   "workspaces": [
