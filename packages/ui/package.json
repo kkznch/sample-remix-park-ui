@@ -2,7 +2,12 @@
   "name": "ui",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsup ./src/index.ts --watch"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
   },
   "dependencies": {
     "@ark-ui/react": "^3.7.0",
